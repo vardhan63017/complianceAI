@@ -1,0 +1,52 @@
+/* Design tokens. Colours follow the two source HTML references:
+   grey page, white surfaces, navy ink, indigo = AI draft, green = approved,
+   amber = pending, red = overdue / major NC. */
+:root {
+  --paper: #f3f5f9;
+  --surface: #ffffff;
+  --surface-2: #f7f8fb;
+  --ink: #131927;
+  --ink-2: #4b556a;
+  --ink-3: #6b7489;
+  --line: #d8dee8;
+  --line-2: #e8ecf2;
+
+  --ai: #2a44c8;
+  --ai-soft: #e8ecfc;
+  --ai-line: #8b9ae6;
+  --ok: #1d8656;
+  --ok-soft: #e2f3ea;
+  --warn: #9a660c;
+  --warn-soft: #fbf0db;
+  --bad: #c03d2a;
+  --bad-soft: #fbe6e2;
+  --future: #6a5bb5;
+  --future-soft: #efecfa;
+
+  --ph-prep: #5b7cfa;
+  --ph-plan: #8a6ad8;
+  --ph-audit: #d08a2c;
+  --ph-close: #2f9e6e;
+
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 1px 2px rgba(19, 25, 39, .05), 0 8px 24px -16px rgba(19, 25, 39, .25);
+  --topbar-h: 56px;
+  --sidebar-w: 248px;
+
+  /* Bootstrap overrides */
+  --bs-body-font-family: var(--f-body);
+  --bs-body-color: var(--ink);
+  --bs-body-bg: var(--paper);
+  --bs-border-color: var(--line);
+  --bs-primary: var(--ink);
+  --bs-primary-rgb: 19, 25, 39;
+  --bs-link-color: var(--ai);
+  --bs-link-color-rgb: 42, 68, 200;
+  --bs-link-hover-color: #1d33a0;
+  --bs-focus-ring-color: rgba(42, 68, 200, .35);
+}
